@@ -1,18 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using DG.Tweening;
 
-public class UIManager : MonoBehaviour
+public class UIManager : Singleton<UIManager>
 {
-    // Start is called before the first frame update
-    void Start()
+    [Header("책 펼치는 효과를 위한 변수")]
+    [SerializeField] private GameObject bookETC;
+    [SerializeField] private GameObject recipeBook;
+    private Sequence bookOpen;
+    public void OpenMenu()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void Awake() 
     {
-        
+        base.Awake();
     }
+
+    
 }
