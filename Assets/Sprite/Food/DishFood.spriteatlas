@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DishFood
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 2648927159058c24bbee6d3c05666bc2, type: 3}
+    totalSpriteSurfaceArea: 104448
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b04b6e00e66c66942afc6be95a0cdab0, type: 3}
+  - {fileID: 21300000, guid: 7ba79b208c49e6e439a5dce8a3023735, type: 3}
+  - {fileID: 21300000, guid: e868c5a0844fb4f43a017e5b825c0502, type: 3}
+  - {fileID: 21300000, guid: 51909da0ea065854ba8ab3cf4eb67766, type: 3}
+  - {fileID: 21300000, guid: 06313511e3d0a0649bb4a129b7698dd4, type: 3}
+  - {fileID: 21300000, guid: 37ea26610e508ee40b64f2810237859c, type: 3}
+  - {fileID: 21300000, guid: 785082a1cf63aa345bc5e52361236230, type: 3}
+  - {fileID: 21300000, guid: d9c2a5e16881170438a5682c71d32492, type: 3}
+  - {fileID: 21300000, guid: af3604f1115849f4687c09c45de4c941, type: 3}
+  - {fileID: 21300000, guid: d581aaf1739e15e45a65ec6a4ce094ea, type: 3}
+  - {fileID: 21300000, guid: 8d1a1722685ca6349b01557ccb136f00, type: 3}
+  - {fileID: 21300000, guid: 6a56f24209c8adc4e89278e1e297891b, type: 3}
+  - {fileID: 21300000, guid: d8132752390fa4144a79576d6ccd6606, type: 3}
+  - {fileID: 21300000, guid: 348b9b621eb349e46947b04839c8e212, type: 3}
+  - {fileID: 21300000, guid: 1cb9e282bf43c844ab6e545166b114bf, type: 3}
+  - {fileID: 21300000, guid: 8e1eab8236b073841b7bc8826567d56a, type: 3}
+  - {fileID: 21300000, guid: 048f7aa2162cacf4a99d70e1fa773398, type: 3}
+  - {fileID: 21300000, guid: 3d13fd1380d248448b69fc16366f087e, type: 3}
+  - {fileID: 21300000, guid: c5c4ea234512f6243941ffc9117695f1, type: 3}
+  - {fileID: 21300000, guid: 61e3f13333a0f234d9297803991a37a6, type: 3}
+  - {fileID: 21300000, guid: b2b02883d92d26d45a1a5bf272ec824f, type: 3}
+  - {fileID: 21300000, guid: d13a82a3e3fc06b4ebffff3a075eaeb6, type: 3}
+  - {fileID: 21300000, guid: 16d901c315b299c439d07745c56e6e31, type: 3}
+  - {fileID: 21300000, guid: 655d54c3e83d37042a57a46c479cee50, type: 3}
+  - {fileID: 21300000, guid: b940d2e3cf141034689ba8d880dc0334, type: 3}
+  - {fileID: 21300000, guid: 95ac7c144b3e0af49a2f14c59cb07c12, type: 3}
+  - {fileID: 21300000, guid: dc0d942419b159c47b117a86c9c5d6d1, type: 3}
+  - {fileID: 21300000, guid: 99d459249807dc64ba04415046d5a422, type: 3}
+  - {fileID: 21300000, guid: 63ac6cc4aa4827047a76b7c2e403e053, type: 3}
+  - {fileID: 21300000, guid: 4d1d6df4b9ac35546a7e85b7ee70e1ca, type: 3}
+  - {fileID: 21300000, guid: ff0fd515fe0de1442ac37234f34014a5, type: 3}
+  - {fileID: 21300000, guid: ffee7035e6f6daa47966713f26468f92, type: 3}
+  - {fileID: 21300000, guid: c4fb4e3504eabd445b3020270316644b, type: 3}
+  - {fileID: 21300000, guid: be0840452473dda4193ad7fb6ddda5e2, type: 3}
+  - {fileID: 21300000, guid: 7499f855d5faf9d4fbf284580b326b29, type: 3}
+  - {fileID: 21300000, guid: 5225fde59d5419b4cbd09195432ecb40, type: 3}
+  - {fileID: 21300000, guid: 52025c066c18ac24a84af1ad26f48881, type: 3}
+  - {fileID: 21300000, guid: a8ea6716b24876e47b7c7f383d1abc06, type: 3}
+  - {fileID: 21300000, guid: 9aafdf26d6baec743b53a43de2416c9d, type: 3}
+  - {fileID: 21300000, guid: 653f9236a5baf094c88f69f638cf08fe, type: 3}
+  - {fileID: 21300000, guid: 034dd16679165d44b9ce4ad64f57abe4, type: 3}
+  - {fileID: 21300000, guid: f28fc27622ac5364e9648c806777f429, type: 3}
+  - {fileID: 21300000, guid: cdfd7f86397563c49be89e70f2471e3b, type: 3}
+  - {fileID: 21300000, guid: dbd57ca6d3a5b2748851fa43e58187bd, type: 3}
+  - {fileID: 21300000, guid: 40f319c640e54f94c8f6f008be7d5219, type: 3}
+  - {fileID: 21300000, guid: ed4446176bf99cb44b185dcc44ff18a4, type: 3}
+  - {fileID: 21300000, guid: 0cdf2c276388b37458738222155b6caa, type: 3}
+  - {fileID: 21300000, guid: d2e8523746566344b957ebe9be370cb5, type: 3}
+  - {fileID: 21300000, guid: 531f9c67695425b488771bd6ccb6cf32, type: 3}
+  - {fileID: 21300000, guid: 61625eb7df3dc3f44b42d0f5a098e651, type: 3}
+  - {fileID: 21300000, guid: 1746a8c711726c64a8328136fac22a3d, type: 3}
+  - {fileID: 21300000, guid: 86e4f0d709333404fba6341536d18532, type: 3}
+  - {fileID: 21300000, guid: 6b0896989c4d12a43ade7d8813a99b6b, type: 3}
+  - {fileID: 21300000, guid: b5df22a8259e9884aa86fc9a0e575d4f, type: 3}
+  - {fileID: 21300000, guid: 208a43d879dd0fc42877611d9102ad31, type: 3}
+  - {fileID: 21300000, guid: 9acc78d8471b8e74c9625cd724b45a75, type: 3}
+  - {fileID: 21300000, guid: 7f50ced85e549ad40aeabc01601b671c, type: 3}
+  - {fileID: 21300000, guid: 89983ce88fd17fa41af3c5b234e7ddc8, type: 3}
+  - {fileID: 21300000, guid: d6e15729e5adf764b948125987e6c1c1, type: 3}
+  - {fileID: 21300000, guid: 504455597f49c2d4da0c56f679725e4c, type: 3}
+  - {fileID: 21300000, guid: e59fab599c69dbb4a9c90c55d04d1082, type: 3}
+  - {fileID: 21300000, guid: ff3add596e2ffbe4f846e0c9022eac1a, type: 3}
+  - {fileID: 21300000, guid: 413b8989ae809794bad8ed73753f5460, type: 3}
+  - {fileID: 21300000, guid: d956ff99e7f2a7d4684b1d1eb89afa2f, type: 3}
+  - {fileID: 21300000, guid: 67e0dbd92226b954c89d5428b295524c, type: 3}
+  - {fileID: 21300000, guid: 9737ec2acd459de4faef6c124cc6ed3a, type: 3}
+  - {fileID: 21300000, guid: d656754a5539ad549886d65d1240f85c, type: 3}
+  - {fileID: 21300000, guid: 5cf4d35a0a2b0454199c77c78d16f683, type: 3}
+  - {fileID: 21300000, guid: 0b75577aa7ed29644b35ae10db63cf3c, type: 3}
+  - {fileID: 21300000, guid: 7d2bdf8a0e083a346b1a66dab0582d12, type: 3}
+  - {fileID: 21300000, guid: 66f822aa7a0278c4c81bb5cf20084dba, type: 3}
+  - {fileID: 21300000, guid: 394da4aaf8378ae4db42d5231b7f4a23, type: 3}
+  - {fileID: 21300000, guid: 72604aba5066aa24e9cfa64d67f88f1d, type: 3}
+  - {fileID: 21300000, guid: b2903aea72cf9ec42aa922baf1674370, type: 3}
+  - {fileID: 21300000, guid: 8bea390be8efe584ab940ffc2ec13155, type: 3}
+  - {fileID: 21300000, guid: cf725e1bdbefa92499a19cf5d49c03b3, type: 3}
+  - {fileID: 21300000, guid: 4355bb2b08acd9a45a1e3d2eab9116b7, type: 3}
+  - {fileID: 21300000, guid: 3543163b01dd8254b893391c4a55740b, type: 3}
+  - {fileID: 21300000, guid: ba19b93b7b105c04bb19f04f6885aab3, type: 3}
+  - {fileID: 21300000, guid: fc3c9c3bfa23c9846b463d6b442ca269, type: 3}
+  - {fileID: 21300000, guid: fb4b747bec06dd744b053c951e766d38, type: 3}
+  - {fileID: 21300000, guid: 5bd539dbddaaed248b1b66cc81fdc448, type: 3}
+  - {fileID: 21300000, guid: 401c740cb3c46be4b950130a48d2fed6, type: 3}
+  - {fileID: 21300000, guid: 460cac5ce5a136441862530764f3a9f1, type: 3}
+  - {fileID: 21300000, guid: cba6ad6c06c0bd64faaa7f29ed5d9ece, type: 3}
+  - {fileID: 21300000, guid: f733e69c8feecf24e86f1d171b0fa84d, type: 3}
+  - {fileID: 21300000, guid: 2753c2dcb8b486c41837ef4c0e640ed0, type: 3}
+  - {fileID: 21300000, guid: b22739dc62db6674f961f9f8f86ceb61, type: 3}
+  - {fileID: 21300000, guid: 3d1ab60dfb5412b43933dd2f183d9791, type: 3}
+  - {fileID: 21300000, guid: c46f83cde9011124a938c9cca2174c57, type: 3}
+  - {fileID: 21300000, guid: 105c44fdd3777864e9ad64b9504eeeba, type: 3}
+  - {fileID: 21300000, guid: 7b93970ed81048a45ac00d65544085d8, type: 3}
+  - {fileID: 21300000, guid: 5be5462e82250a849b95e62dc60bc343, type: 3}
+  - {fileID: 21300000, guid: 24ee2a5eb5d50684281d54559426ed18, type: 3}
+  - {fileID: 21300000, guid: bee9fa5e579bbc343a5b8ed40e0f2c11, type: 3}
+  - {fileID: 21300000, guid: a5c2d28ec7195b143889529e8c1e9466, type: 3}
+  - {fileID: 21300000, guid: acd8acaeee7e093409478dc6c22103aa, type: 3}
+  - {fileID: 21300000, guid: 15a5f11ff27aa5e46802f5ef83a60e6d, type: 3}
+  - {fileID: 21300000, guid: 4e7bbe2f692423c48badc927171958bb, type: 3}
+  - {fileID: 21300000, guid: 3dc4653f5594b2e4db19727082fdabe1, type: 3}
+  - {fileID: 21300000, guid: f3432c3f2208ee14fbe297f10ecfcc9a, type: 3}
+  - {fileID: 21300000, guid: e6b4918f07d993247b3519eba9b7b347, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 85_roastedchicken
+  - 75_pudding
+  - 95_steak
+  - 17_burger_napkin
+  - 51_giantgummybear_dish
+  - 29_cookies_dish
+  - 05_apple_pie
+  - 30_chocolatecake
+  - 24_cheesepuff
+  - 41_eggsalad_bowl
+  - 87_ramen
+  - 72_nacho_dish
+  - 60_jelly_dish
+  - 42_eggtart
+  - 71_nacho
+  - 22_cheesecake
+  - 94_spaghetti
+  - 25_cheesepuff_bowl
+  - 11_bun
+  - 69_meatball
+  - 12_bun_dish
+  - 38_friedegg
+  - 49_garlicbread_dish
+  - 06_apple_pie_dish
+  - 70_meatball_dish
+  - 98_sushi_dish
+  - 28_cookies
+  - 67_macncheese
+  - 82_pizza_dish
+  - 80_pancakes_dish
+  - 15_burger
+  - 66_loafbread_dish
+  - 90_strawberrycake
+  - 26_chocolate
+  - 07_bread
+  - 81_pizza
+  - 96_steak_dish
+  - 74_omlet_dish
+  - 100_taco_dish
+  - 78_potatochips_bowl
+  - 62_jam_dish
+  - 102_waffle_dish
+  - 18_burrito
+  - 68_macncheese_dish
+  - 23_cheesecake_dish
+  - 79_pancakes
+  - 53_gingerbreadman_dish
+  - 59_jelly
+  - 57_icecream
+  - 55_hotdog_sauce
+  - 34_donut
+  - 37_dumplings_dish
+  - 88_salmon
+  - 58_icecream_bowl
+  - 99_taco
+  - 86_roastedchicken_dish
+  - 91_strawberrycake_dish
+  - 65_loafbread
+  - 13_bacon
+  - 54_hotdog
+  - 73_omlet
+  - 04_bowl
+  - 64_lemonpie_dish
+  - 63_lemonpie
+  - 93_sandwich_dish
+  - 33_curry_dish
+  - 61_jam
+  - 02_dish_2
+  - 19_burrito_dish
+  - 20_bagel
+  - 16_burger_dish
+  - 46_fruitcake
+  - 101_waffle
+  - 50_giantgummybear
+  - 84_popcorn_bowl
+  - 48_garlicbread
+  - 92_sandwich
+  - 08_bread_dish
+  - 56_hotdog_dish
+  - 83_popcorn
+  - 31_chocolatecake_dish
+  - 97_sushi
+  - 27_chocolate_dish
+  - 03_dish_pile
+  - 45_frenchfries_dish
+  - 21_bagel_dish
+  - 32_curry
+  - 36_dumplings
+  - 09_baguette
+  - 76_pudding_dish
+  - 01_dish
+  - 35_donut_dish
+  - 89_salmon_dish
+  - 14_bacon_dish
+  - 39_friedegg_dish
+  - 52_gingerbreadman
+  - 10_baguette_dish
+  - 44_frenchfries
+  - 43_eggtart_dish
+  - 47_fruitcake_dish
+  - 40_eggsalad
+  - 77_potatochips
+  m_RenderDataMap: {}
+  m_Tag: DishFood
+  m_IsVariant: 0
