@@ -11,19 +11,19 @@ F:\2020.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/jjhlo/OneDrive/바탕 화면/FoodMakeGame
+C:/Users/jjhlo/OneDrive/바탕 화면/FoodMakeGame/MakeDish
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49498
-Successfully changed project path to: C:/Users/jjhlo/OneDrive/바탕 화면/FoodMakeGame
-C:/Users/jjhlo/OneDrive/바탕 화면/FoodMakeGame
+54792
+Successfully changed project path to: C:/Users/jjhlo/OneDrive/바탕 화면/FoodMakeGame/MakeDish
+C:/Users/jjhlo/OneDrive/바탕 화면/FoodMakeGame/MakeDish
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path F:/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jjhlo/OneDrive/바탕 화면/FoodMakeGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jjhlo/OneDrive/바탕 화면/FoodMakeGame/MakeDish/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,1173 +35,1212 @@ Initialize mono
 Mono path[0] = 'F:/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'F:/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001643 seconds.
+Registered in 0.001688 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.780 seconds
+- Completed reload, in  2.704 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001564 seconds.
+Registered in 0.002692 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
+- Completed reload, in  0.875 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 84.8 MB.
+Unloading 1130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.6 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
-Total: 3.270100 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.730700 ms  DeleteObjects: 0.192200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006339 seconds
-  Import took 0.009790 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1573.
+Total: 1.723500 ms (FindLiveObjects: 0.132700 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.481100 ms  DeleteObjects: 0.080200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.690933 seconds.
+  path: Assets/Scripts/Ads/InterstitialAdExample.cs
+  artifactKey: Guid(adc39633c27645f4280d9ae4649004dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ads/InterstitialAdExample.cs using Guid(adc39633c27645f4280d9ae4649004dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9fd3059f1aed77f3219f8090b9135d') in 0.033733 seconds
+  Import took 0.035654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045277 seconds.
+  path: Assets/Scripts/Ads/AdsInitializer.cs
+  artifactKey: Guid(a6e24f66765b83f4b9f8ea7a04b82b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ads/AdsInitializer.cs using Guid(a6e24f66765b83f4b9f8ea7a04b82b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037debeb43367d34845b3551e90b3da2') in 0.004309 seconds
+  Import took 0.007514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.757498 seconds.
+  path: Assets/Scripts/Ads/RewardedAdsButton.cs
+  artifactKey: Guid(3817223c7fc2ac046a0c6e589da8ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ads/RewardedAdsButton.cs using Guid(3817223c7fc2ac046a0c6e589da8ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd993b63986b72e036c1041bbf6f1461b') in 0.005086 seconds
+  Import took 0.007049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002401 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.5 MB.
+System memory in use after: 57.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1576.
+Total: 1.835800 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.606500 ms  DeleteObjects: 0.057300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 210.058992 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec548b0cb1a8578ab060b13e51fd2ab9') in 0.006659 seconds
+  Import took 0.008515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002380 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec548b0cb1a8578ab060b13e51fd2ab9') in 0.004370 seconds
+  Import took 0.006366 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 1.876900 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.579200 ms  DeleteObjects: 0.109900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 10226.526505 seconds.
   path: Assets/Scripts
   artifactKey: Guid(ffb533ca3e4d49f4c83dc1d5f8438b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(ffb533ca3e4d49f4c83dc1d5f8438b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f790093e54b6b6628f88647bded1c28') in 0.004934 seconds
-  Import took 0.008086 seconds .
+Start importing Assets/Scripts using Guid(ffb533ca3e4d49f4c83dc1d5f8438b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f790093e54b6b6628f88647bded1c28') in 0.007991 seconds
+  Import took 0.011850 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42876.702699 seconds.
-  path: Assets/Sprite
-  artifactKey: Guid(7c88a37e066198149bbda383aafdf3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite using Guid(7c88a37e066198149bbda383aafdf3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abdad7540435082035c44d8e3173545') in 0.007937 seconds
-  Import took 0.055632 seconds .
+  Time since last request: 8.050545 seconds.
+  path: Assets/Scripts/Parent
+  artifactKey: Guid(eff8ccbb491bec74b8be87d86d7dc873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Parent using Guid(eff8ccbb491bec74b8be87d86d7dc873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69d269988f5ad2852ec6f68d76c00f7') in 0.005566 seconds
+  Import took 0.007622 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 79.426832 seconds.
-  path: Assets/Sprite/IconSheet 48x48.png
-  artifactKey: Guid(5d32750e35d27894289e7f4dfa35ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/IconSheet 48x48.png using Guid(5d32750e35d27894289e7f4dfa35ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4888d71572625cedd0a603af3d66bd') in 0.241106 seconds
-  Import took 0.244301 seconds .
+  Time since last request: 9.897804 seconds.
+  path: Assets/Scripts/Parent/Singleton.cs
+  artifactKey: Guid(265e6751a1ff0b84d9244f82f6e142f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Parent/Singleton.cs using Guid(265e6751a1ff0b84d9244f82f6e142f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fccd6053c80ea018414f8ef9d7bd56') in 0.007057 seconds
+  Import took 0.009412 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 1.778700 ms (FindLiveObjects: 0.130400 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.567700 ms  DeleteObjects: 0.051200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 1.705100 ms (FindLiveObjects: 0.146100 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.467500 ms  DeleteObjects: 0.057200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 578.681164 seconds.
+  path: Assets/Scripts/Parent/Singleton.cs
+  artifactKey: Guid(265e6751a1ff0b84d9244f82f6e142f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Parent/Singleton.cs using Guid(265e6751a1ff0b84d9244f82f6e142f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d9de043cfaa7b1f74fe061519d1c9b') in 0.006012 seconds
+  Import took 0.007746 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.243791 seconds.
-  path: Assets/Sprite/IconSheet 48x48.png
-  artifactKey: Guid(5d32750e35d27894289e7f4dfa35ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/IconSheet 48x48.png using Guid(5d32750e35d27894289e7f4dfa35ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd189e6bdf95ad170087f694122895c8') in 0.012022 seconds
-  Import took 0.015839 seconds .
+  Time since last request: 800.345670 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68889b00d4a14762e034f2b65b6e1b7a') in 0.004763 seconds
+  Import took 0.007037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.450373 seconds.
-  path: Assets/Sprite/IconSheet 48x48.png
-  artifactKey: Guid(5d32750e35d27894289e7f4dfa35ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/IconSheet 48x48.png using Guid(5d32750e35d27894289e7f4dfa35ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73954f9f0f76aa6507bdd14e4c577f5') in 0.288312 seconds
-  Import took 0.299225 seconds .
+  Time since last request: 0.432559 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68889b00d4a14762e034f2b65b6e1b7a') in 0.004396 seconds
+  Import took 0.006256 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 1.704800 ms (FindLiveObjects: 0.135200 ms CreateObjectMapping: 0.027900 ms MarkObjects: 1.484400 ms  DeleteObjects: 0.056200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1592.
+Total: 1.750700 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.028000 ms MarkObjects: 1.523400 ms  DeleteObjects: 0.060700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 63833.596619 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6efefb7150aae9e7a568f441bf3fc4') in 0.063164 seconds
+  Import took 0.108452 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 93.177627 seconds.
-  path: Assets/Sprite/Food.png
-  artifactKey: Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food.png using Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d1a0090f38400dc9dbc87bdb834f81') in 0.030351 seconds
-  Import took 0.034156 seconds .
+  Time since last request: 2901.906137 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76601b4b64a125eca77bba42a1786ba') in 0.010812 seconds
+  Import took 0.034760 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.877618 seconds.
-  path: Assets/Sprite/Food.png
-  artifactKey: Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food.png using Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf37d45161147a1402064d9f62de47a') in 0.016712 seconds
-  Import took 0.020296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.931114 seconds.
-  path: Assets/Sprite/Food.png
-  artifactKey: Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food.png using Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbeed368615dbe45ef91eed4cc398b5') in 0.165191 seconds
-  Import took 0.169316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 540.315307 seconds.
-  path: Assets/Sprite/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b526aafd6d5cd7c867724caa468466') in 0.008866 seconds
-  Import took 0.012310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.834033 seconds.
-  path: Assets/Sprite/aluminum_foil.png
-  artifactKey: Guid(03175c3417711944a9e85fdb1afe15b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/aluminum_foil.png using Guid(03175c3417711944a9e85fdb1afe15b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be02825293a654f542f8d960cc89413') in 0.014528 seconds
-  Import took 0.018015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.914814 seconds.
-  path: Assets/Sprite/Food
-  artifactKey: Guid(c4eed47ff0ab10c4999c8feb0cc24cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food using Guid(c4eed47ff0ab10c4999c8feb0cc24cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7898d4cf9cdfdc466d131b16bd62c85') in 0.004243 seconds
-  Import took 0.007252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.878407 seconds.
-  path: Assets/Sprite/jam_strawberry.png
-  artifactKey: Guid(54875bcd3fe917d4282c42950829d222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/jam_strawberry.png using Guid(54875bcd3fe917d4282c42950829d222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34723c54f0a999074cd74cdc0f454257') in 0.014109 seconds
-  Import took 0.017347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.527257 seconds.
-  path: Assets/Sprite/bacon.png
-  artifactKey: Guid(696b34044d9903f49b5ead095b7deaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/bacon.png using Guid(696b34044d9903f49b5ead095b7deaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f5d575c92fbcded6061967e86e8f45') in 0.013507 seconds
-  Import took 0.017647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000554 seconds.
-  path: Assets/Sprite/bacon.png
-  artifactKey: Guid(696b34044d9903f49b5ead095b7deaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/bacon.png using Guid(696b34044d9903f49b5ead095b7deaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f5d575c92fbcded6061967e86e8f45') in 0.016526 seconds
-  Import took 0.020012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.451822 seconds.
-  path: Assets/Sprite/basket_metal.png
-  artifactKey: Guid(835fbbbe22778f441ac19f5046731098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/basket_metal.png using Guid(835fbbbe22778f441ac19f5046731098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e5646b06e335611251d789f306b862') in 0.018238 seconds
-  Import took 0.021158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.723838 seconds.
-  path: Assets/Sprite/batteries.png
-  artifactKey: Guid(0aef0c1562e841c4aa50799987397c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/batteries.png using Guid(0aef0c1562e841c4aa50799987397c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0741860cd8ffc4f97de04064b19fded8') in 0.018195 seconds
-  Import took 0.023912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.311671 seconds.
-  path: Assets/Sprite/glue_stick.png
-  artifactKey: Guid(043c5a9989fd8ef458ed4e759fc4a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/glue_stick.png using Guid(043c5a9989fd8ef458ed4e759fc4a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de34a13bdcc67dd729ea6762e0a7d3b7') in 0.013291 seconds
-  Import took 0.016234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.990102 seconds.
-  path: Assets/Sprite/MartFoods
-  artifactKey: Guid(7cc1c471ee3060749a064f42ab0b91ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/MartFoods using Guid(7cc1c471ee3060749a064f42ab0b91ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5388c3ffc66d8b563ca15a3c293e7b6c') in 0.004934 seconds
-  Import took 0.008609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.341806 seconds.
-  path: Assets/Sprite/American_cheese_p.png
-  artifactKey: Guid(7e418648845713c418116feb541b248a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/American_cheese_p.png using Guid(7e418648845713c418116feb541b248a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384105cf897d7cbb1bec240dad9ae0a4') in 0.013086 seconds
-  Import took 0.016056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.700974 seconds.
-  path: Assets/Sprite/salt.png
-  artifactKey: Guid(241f2a97b22e56e4b9c689fb0e4412cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/salt.png using Guid(241f2a97b22e56e4b9c689fb0e4412cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a74d4e17df7248e63abed0c0df1856') in 0.013772 seconds
-  Import took 0.016800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.384565 seconds.
-  path: Assets/Sprite/Food/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8363a1460f5a685a6c9b9e796c9e6c38') in 0.006439 seconds
-  Import took 0.009640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.243885 seconds.
-  path: Assets/Sprite/Food/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895ddee91f6e953ac512363b77659fc3') in 0.006038 seconds
-  Import took 0.009877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.002501 seconds.
-  path: Assets/Sprite/Food/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3628a450ba97c49152142c8abb15cd58') in 0.006154 seconds
-  Import took 0.008993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.550978 seconds.
-  path: Assets/Sprite/Food/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130d7d7fad6252352d85cddf8ebc63b1') in 0.005333 seconds
-  Import took 0.008931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.138477 seconds.
-  path: Assets/Sprite/Food/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f56d9088f83bbafc4621eee24cb3716') in 0.005523 seconds
-  Import took 0.008645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.979189 seconds.
-  path: Assets/Sprite/Food/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662acb2fb2be7947d8721ba0e1182aff') in 0.005319 seconds
-  Import took 0.008639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.797664 seconds.
-  path: Assets/Sprite/Food/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00b824536af148f8b3e25a9182b0029') in 0.005548 seconds
-  Import took 0.008610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 136.510473 seconds.
-  path: Assets/Sprite/Food/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54ae8ce0291feae44d2963bd8bb94a9') in 0.005622 seconds
-  Import took 0.009968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.021150 seconds.
-  path: Assets/Sprite/Food/MartFood.spriteatlas
-  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44c3b32b0dca709e4a5ec4e26739750') in 0.005394 seconds
-  Import took 0.008337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 270.082061 seconds.
-  path: Assets/Sprite/Food/DishFood
-  artifactKey: Guid(2648927159058c24bbee6d3c05666bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFood using Guid(2648927159058c24bbee6d3c05666bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272cf0d0865d366b8e376bf0a822ed7b') in 0.005177 seconds
-  Import took 0.008809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.986289 seconds.
+  Time since last request: 152.854405 seconds.
   path: Assets/Sprite/Food/DishFood.spriteatlas
   artifactKey: Guid(e338809747662b649a566c40b6d4d1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFood.spriteatlas using Guid(e338809747662b649a566c40b6d4d1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd45cef01640c18dfa43e408f8bc1cf0') in 0.005092 seconds
-  Import took 0.008082 seconds .
+Start importing Assets/Sprite/Food/DishFood.spriteatlas using Guid(e338809747662b649a566c40b6d4d1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7664f2dcc6e7404908a0ce29831b76') in 0.182492 seconds
+  Import took 0.210768 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.787701 seconds.
+  Time since last request: 19.430267 seconds.
   path: Assets/Sprite/Food/DishFoods
   artifactKey: Guid(2648927159058c24bbee6d3c05666bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods using Guid(2648927159058c24bbee6d3c05666bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3845a6135f666607a6526d8476e8e8') in 0.014505 seconds
-  Import took 0.018432 seconds .
+Start importing Assets/Sprite/Food/DishFoods using Guid(2648927159058c24bbee6d3c05666bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3845a6135f666607a6526d8476e8e8') in 0.015357 seconds
+  Import took 0.017960 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 57.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1597.
+Total: 2.852400 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.088700 ms MarkObjects: 2.361400 ms  DeleteObjects: 0.135300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 7232.119241 seconds.
+  path: Assets/Sprite/Food/MartFoods/wine_white2.png
+  artifactKey: Guid(3bc3ccf2266e7274d9d2e86bde16cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/wine_white2.png using Guid(3bc3ccf2266e7274d9d2e86bde16cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031d9d7db148ecad2a86b0300ddf0224') in 0.646447 seconds
+  Import took 0.683597 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.748877 seconds.
-  path: Assets/Sprite/Food/DishFood.spriteatlas
-  artifactKey: Guid(e338809747662b649a566c40b6d4d1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFood.spriteatlas using Guid(e338809747662b649a566c40b6d4d1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fc27d0e6655e839d3a54b99c8e579e') in 0.006897 seconds
-  Import took 0.010954 seconds .
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprite/Food/MartFoods/wine_white3.png
+  artifactKey: Guid(fac30a760af38734eb0b48fac171bed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/wine_white3.png using Guid(fac30a760af38734eb0b48fac171bed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95103ecc5eef84a8e6d77795c58e10d') in 0.019804 seconds
+  Import took 0.023630 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.578867 seconds.
-  path: Assets/Sprite/Food/DishFood.spriteatlas
-  artifactKey: Guid(e338809747662b649a566c40b6d4d1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFood.spriteatlas using Guid(e338809747662b649a566c40b6d4d1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7664f2dcc6e7404908a0ce29831b76') in 0.005988 seconds
-  Import took 0.009583 seconds .
+  Time since last request: 2.436152 seconds.
+  path: Assets/Sprite/Food/MartFoods/wine_red.png
+  artifactKey: Guid(8b97aa9087711a842bad4d88cdc1f427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/wine_red.png using Guid(8b97aa9087711a842bad4d88cdc1f427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e69d00a60f7637dad85d1ce82a93ac8') in 0.017680 seconds
+  Import took 0.020985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Sprite/Food/MartFoods/wine_white.png
+  artifactKey: Guid(0aef1a812f09df6409492c2c374d978d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/wine_white.png using Guid(0aef1a812f09df6409492c2c374d978d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df223e31ef9b30658a67cee978ebaf5') in 0.018100 seconds
+  Import took 0.020929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052661 seconds.
+  path: Assets/Sprite/Food/MartFoods/white_cheese_piece.png
+  artifactKey: Guid(a875bed2fb508fa44a0ae9b6de18f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/white_cheese_piece.png using Guid(a875bed2fb508fa44a0ae9b6de18f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1328180234b932f6371177990cefcb') in 0.024500 seconds
+  Import took 0.027165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprite/Food/MartFoods/white_cheese_piece_p.png
+  artifactKey: Guid(f9f1a8787d0b77d44a19694ecfb700b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/white_cheese_piece_p.png using Guid(f9f1a8787d0b77d44a19694ecfb700b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b7db5f8cb7b319587e6843082c3ae0') in 0.018987 seconds
+  Import took 0.022675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381784 seconds.
+  path: Assets/Sprite/Food/MartFoods/white_cheese.png
+  artifactKey: Guid(06880fac7723b894cb69d28a44c650dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/white_cheese.png using Guid(06880fac7723b894cb69d28a44c650dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a7bf24a546be30d461e2baab9abdf2') in 0.026021 seconds
+  Import took 0.028890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Sprite/Food/MartFoods/white_cheese_p.png
+  artifactKey: Guid(660663944a8afb949bec3bb0799f2cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/white_cheese_p.png using Guid(660663944a8afb949bec3bb0799f2cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c227c5826763b37e349def02d0edc178') in 0.019601 seconds
+  Import took 0.022454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311098 seconds.
+  path: Assets/Sprite/Food/MartFoods/whisk.png
+  artifactKey: Guid(4a0853bc44c3df443bd716d83655db57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/whisk.png using Guid(4a0853bc44c3df443bd716d83655db57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d08741ab1992d9d63d4b0079404f9bd') in 0.033336 seconds
+  Import took 0.036620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprite/Food/MartFoods/wax.png
+  artifactKey: Guid(21749ee593f3554409075e05dc607f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/wax.png using Guid(21749ee593f3554409075e05dc607f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbad5da7c645a2e15243fc01646a954') in 0.022421 seconds
+  Import took 0.025543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprite/Food/MartFoods/wet_wipe.png
+  artifactKey: Guid(3924be8c2153f404c8208916d9a43415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/wet_wipe.png using Guid(3924be8c2153f404c8208916d9a43415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7014b08dbd1c396d477f1e96d1b27b') in 0.018924 seconds
+  Import took 0.021916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Sprite/Food/MartFoods/whisk_p.png
+  artifactKey: Guid(3bc7bc89f13e5c749abfec587766c6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/whisk_p.png using Guid(3bc7bc89f13e5c749abfec587766c6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afea8061904813aff43aa0a71fc285c5') in 0.019366 seconds
+  Import took 0.022817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005992 seconds.
+  path: Assets/Sprite/Food/MartFoods/whisk_p.png
+  artifactKey: Guid(3bc7bc89f13e5c749abfec587766c6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFoods/whisk_p.png using Guid(3bc7bc89f13e5c749abfec587766c6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afea8061904813aff43aa0a71fc285c5') in 0.014907 seconds
+  Import took 0.017107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 748.208384 seconds.
+  path: Assets/Sprite/Recipe Book.png
+  artifactKey: Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Recipe Book.png using Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b728c0ab59dd2533a84264319889d1c') in 0.020804 seconds
+  Import took 0.024475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053669 seconds.
+  path: Assets/Sprite/Recipe Book.png
+  artifactKey: Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Recipe Book.png using Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b728c0ab59dd2533a84264319889d1c') in 0.015798 seconds
+  Import took 0.018697 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001869 seconds.
+Registered in 0.002373 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
+- Completed reload, in  1.024 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1946 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.6 MB.
-System memory in use after: 91.6 MB.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.0 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2388.
-Total: 2.657500 ms (FindLiveObjects: 0.209200 ms CreateObjectMapping: 0.088900 ms MarkObjects: 2.163900 ms  DeleteObjects: 0.193900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1642.
+Total: 1.833800 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.565700 ms  DeleteObjects: 0.067300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 127.760506 seconds.
+  path: Assets/Sprite/Food/MartFood.spriteatlas
+  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44c3b32b0dca709e4a5ec4e26739750') in 0.022040 seconds
+  Import took 0.030787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027830 seconds.
+  path: Assets/Sprite/Food/MartFood.spriteatlas
+  artifactKey: Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/MartFood.spriteatlas using Guid(0e01e4b85779ef54299180c5c1827fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44c3b32b0dca709e4a5ec4e26739750') in 0.006481 seconds
+  Import took 0.008793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.055624 seconds.
+  path: Assets/Sprite/Recipe Book.png
+  artifactKey: Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Recipe Book.png using Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ceff1ccffb42afa326c9ec50ccf3af3') in 0.059892 seconds
+  Import took 0.064129 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002059 seconds.
+Registered in 0.007902 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
+- Completed reload, in  1.915 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.7 MB.
-System memory in use after: 91.7 MB.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 43.9 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2393.
-Total: 2.186400 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.081900 ms MarkObjects: 1.736400 ms  DeleteObjects: 0.119800 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1647.
+Total: 10.344600 ms (FindLiveObjects: 0.334800 ms CreateObjectMapping: 0.168700 ms MarkObjects: 2.851200 ms  DeleteObjects: 6.987600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 82986.574975 seconds.
+  path: Assets/Sprite/Recipe Book.png
+  artifactKey: Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Recipe Book.png using Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565d7f2a06674035582c4d1e879e0435') in 0.118599 seconds
+  Import took 0.124131 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001388 seconds.
+Registered in 0.003458 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
+- Completed reload, in  1.381 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.7 MB.
-System memory in use after: 91.7 MB.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2397.
-Total: 2.089500 ms (FindLiveObjects: 0.175200 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.732500 ms  DeleteObjects: 0.111400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1653.
+Total: 2.429400 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.065900 ms  DeleteObjects: 0.115200 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1656.
+Total: 1.968600 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.051400 ms MarkObjects: 1.632800 ms  DeleteObjects: 0.081000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 5629.586765 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9fb2f28aab856d350436438ecff40a') in 0.007207 seconds
+  Import took 0.011461 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1659.
+Total: 1.939400 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.054800 ms MarkObjects: 1.612600 ms  DeleteObjects: 0.106800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 357.455325 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a01541e069c9c417ef0cd736a06839f') in 0.009168 seconds
+  Import took 0.021176 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 2.012000 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.050000 ms MarkObjects: 1.693200 ms  DeleteObjects: 0.077600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1665.
+Total: 1.635000 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.372300 ms  DeleteObjects: 0.059200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 787.018387 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a12173c551f7d2b1f0d6a029a536c89') in 0.008109 seconds
+  Import took 0.010316 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 1.900600 ms (FindLiveObjects: 0.163700 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.626400 ms  DeleteObjects: 0.063300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 2.947200 ms (FindLiveObjects: 0.272500 ms CreateObjectMapping: 0.099300 ms MarkObjects: 2.468000 ms  DeleteObjects: 0.105600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 2792.960215 seconds.
+  path: Assets/Sprite/Food/Food.png
+  artifactKey: Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Food/Food.png using Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f5b02ce72dca7f24e22171460e8dc7') in 0.334610 seconds
+  Import took 0.349567 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.611 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 3.436400 ms (FindLiveObjects: 0.443400 ms CreateObjectMapping: 0.098700 ms MarkObjects: 2.796800 ms  DeleteObjects: 0.093800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 2.536900 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.136400 ms  DeleteObjects: 0.081300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003290 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 1.752100 ms (FindLiveObjects: 0.153300 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.509300 ms  DeleteObjects: 0.057000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1687.
+Total: 1.785300 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.545800 ms  DeleteObjects: 0.058200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002344 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 1.738600 ms (FindLiveObjects: 0.139400 ms CreateObjectMapping: 0.029400 ms MarkObjects: 1.514800 ms  DeleteObjects: 0.054200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 1.883200 ms (FindLiveObjects: 0.143400 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.647800 ms  DeleteObjects: 0.057200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 1.713600 ms (FindLiveObjects: 0.130500 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.449900 ms  DeleteObjects: 0.099500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.792300 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.537000 ms  DeleteObjects: 0.059600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005569 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.557 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 2.739600 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.346200 ms  DeleteObjects: 0.074300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.268 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 5.061700 ms (FindLiveObjects: 0.376900 ms CreateObjectMapping: 0.144200 ms MarkObjects: 4.404000 ms  DeleteObjects: 0.133400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.328 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 3.329700 ms (FindLiveObjects: 0.212700 ms CreateObjectMapping: 0.054900 ms MarkObjects: 2.925700 ms  DeleteObjects: 0.134000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.957 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 2.378100 ms (FindLiveObjects: 0.226000 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.008200 ms  DeleteObjects: 0.069600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1714.
+Total: 1.856800 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.623000 ms  DeleteObjects: 0.054900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.782 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 4.288200 ms (FindLiveObjects: 0.416200 ms CreateObjectMapping: 0.151400 ms MarkObjects: 3.562100 ms  DeleteObjects: 0.156100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1720.
+Total: 1.974900 ms (FindLiveObjects: 0.162300 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.717800 ms  DeleteObjects: 0.058000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003243 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1723.
+Total: 1.678500 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.437700 ms  DeleteObjects: 0.055300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1726.
+Total: 2.269900 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.903700 ms  DeleteObjects: 0.098200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002368 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 1.963300 ms (FindLiveObjects: 0.160600 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.698000 ms  DeleteObjects: 0.061200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 1.944500 ms (FindLiveObjects: 0.157300 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.690800 ms  DeleteObjects: 0.058800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.002393 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
+- Completed reload, in  0.911 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.8 MB.
-System memory in use after: 91.8 MB.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2401.
-Total: 3.193000 ms (FindLiveObjects: 0.683300 ms CreateObjectMapping: 0.173300 ms MarkObjects: 2.071500 ms  DeleteObjects: 0.262400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 29.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.9 MB.
-System memory in use after: 53.9 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2401.
-Total: 6.055500 ms (FindLiveObjects: 1.222700 ms CreateObjectMapping: 0.430000 ms MarkObjects: 3.785400 ms  DeleteObjects: 0.608800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001983 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.921 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.8 MB.
-System memory in use after: 91.8 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2406.
-Total: 2.254500 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.867300 ms  DeleteObjects: 0.118100 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1735.
+Total: 1.827400 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.584500 ms  DeleteObjects: 0.054500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001475 seconds.
+Registered in 0.003676 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
+- Completed reload, in  0.970 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.9 MB.
-System memory in use after: 91.8 MB.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2410.
-Total: 2.359600 ms (FindLiveObjects: 0.162500 ms CreateObjectMapping: 0.058200 ms MarkObjects: 2.017000 ms  DeleteObjects: 0.120800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 7746.397032 seconds.
-  path: Assets/Scripts/front.cs
-  artifactKey: Guid(adc39633c27645f4280d9ae4649004dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/front.cs using Guid(adc39633c27645f4280d9ae4649004dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c73e7664dbfa38e8f252816fa7d66d5') in 0.013377 seconds
-  Import took 0.016991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.027285 seconds.
-  path: Assets/Scripts/InterstitialAdExample.cs
-  artifactKey: Guid(adc39633c27645f4280d9ae4649004dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/InterstitialAdExample.cs using Guid(adc39633c27645f4280d9ae4649004dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9fd3059f1aed77f3219f8090b9135d') in 0.005667 seconds
-  Import took 0.008728 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001613 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.9 MB.
-System memory in use after: 91.8 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2414.
-Total: 2.962200 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.544800 ms  DeleteObjects: 0.128900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1738.
+Total: 2.018300 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.726600 ms  DeleteObjects: 0.062700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002091 seconds.
+Registered in 0.017398 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
+- Completed reload, in  1.132 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.9 MB.
-System memory in use after: 91.9 MB.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2418.
-Total: 2.518600 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.086100 ms MarkObjects: 2.019800 ms  DeleteObjects: 0.124900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1741.
+Total: 2.115200 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.054400 ms MarkObjects: 1.744500 ms  DeleteObjects: 0.069300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 258.686885 seconds.
-  path: Assets/Scripts/m.cs
-  artifactKey: Guid(3817223c7fc2ac046a0c6e589da8ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/m.cs using Guid(3817223c7fc2ac046a0c6e589da8ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b041f96df1ddff084b669faae4386623') in 0.009537 seconds
-  Import took 0.013248 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001448 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.0 MB.
-System memory in use after: 91.9 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2423.
-Total: 2.085100 ms (FindLiveObjects: 0.186500 ms CreateObjectMapping: 0.077800 ms MarkObjects: 1.709100 ms  DeleteObjects: 0.110200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001989 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.991 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.0 MB.
-System memory in use after: 92.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2427.
-Total: 2.634700 ms (FindLiveObjects: 0.189500 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.253500 ms  DeleteObjects: 0.126100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 15.338016 seconds.
-  path: Assets/Scripts/m.cs
-  artifactKey: Guid(3817223c7fc2ac046a0c6e589da8ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/m.cs using Guid(3817223c7fc2ac046a0c6e589da8ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0004d200d7d0da18ff9254f4d7511808') in 0.007497 seconds
-  Import took 0.010430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.149881 seconds.
-  path: Assets/Scripts/RewardedAdsButton.cs
-  artifactKey: Guid(3817223c7fc2ac046a0c6e589da8ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RewardedAdsButton.cs using Guid(3817223c7fc2ac046a0c6e589da8ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd993b63986b72e036c1041bbf6f1461b') in 0.010102 seconds
-  Import took 0.015593 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002716 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.0 MB.
-System memory in use after: 92.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2431.
-Total: 2.442900 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.033000 ms  DeleteObjects: 0.124400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 2893.301107 seconds.
-  path: Assets/Sprite/Food/IconSheet 48x48.png
-  artifactKey: Guid(5d32750e35d27894289e7f4dfa35ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/IconSheet 48x48.png using Guid(5d32750e35d27894289e7f4dfa35ee5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0b49da0ceaf659a19f039e908651d4') in 0.455027 seconds
-  Import took 0.463769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.632644 seconds.
-  path: Assets/Sprite/Food/Food.png
-  artifactKey: Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/Food.png using Guid(c9aad561b9336fc4ebf7bad6f2987e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1a0a880823717d32e6b375fb2ec708') in 0.133157 seconds
-  Import took 0.136422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 375.115545 seconds.
-  path: Assets/Sprite/Food/DishFoods/02_dish_2.png
-  artifactKey: Guid(5cf4d35a0a2b0454199c77c78d16f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/02_dish_2.png using Guid(5cf4d35a0a2b0454199c77c78d16f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4b12c86bfa8423a300c1235bc5f4d1') in 0.020777 seconds
-  Import took 0.026686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000971 seconds.
-  path: Assets/Sprite/Food/DishFoods/02_dish_2.png
-  artifactKey: Guid(5cf4d35a0a2b0454199c77c78d16f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/02_dish_2.png using Guid(5cf4d35a0a2b0454199c77c78d16f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4b12c86bfa8423a300c1235bc5f4d1') in 0.015151 seconds
-  Import took 0.018599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.455409 seconds.
-  path: Assets/Sprite/Food/DishFoods/01_dish.png
-  artifactKey: Guid(105c44fdd3777864e9ad64b9504eeeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/01_dish.png using Guid(105c44fdd3777864e9ad64b9504eeeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b93d9f163930e36a128d8e05ce8bf8') in 0.018498 seconds
-  Import took 0.021633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.227734 seconds.
-  path: Assets/Sprite/Food/DishFoods/04_bowl.png
-  artifactKey: Guid(ff3add596e2ffbe4f846e0c9022eac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/04_bowl.png using Guid(ff3add596e2ffbe4f846e0c9022eac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4215004b3cb5d18d6d3b2e6ca74d9dfa') in 0.015198 seconds
-  Import took 0.018765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.450604 seconds.
-  path: Assets/Sprite/Food/DishFoods/12_bun_dish.png
-  artifactKey: Guid(b2b02883d92d26d45a1a5bf272ec824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/12_bun_dish.png using Guid(b2b02883d92d26d45a1a5bf272ec824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a26f97a8cdb18c369e476a9c397d70f') in 0.021333 seconds
-  Import took 0.025035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.376322 seconds.
-  path: Assets/Sprite/Food/DishFoods/14_bacon_dish.png
-  artifactKey: Guid(24ee2a5eb5d50684281d54559426ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/14_bacon_dish.png using Guid(24ee2a5eb5d50684281d54559426ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2a0ca2e2496f2f1bfad4fc04ca5bba') in 0.017088 seconds
-  Import took 0.020672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.064579 seconds.
-  path: Assets/Sprite/Food/DishFoods/13_bacon.png
-  artifactKey: Guid(d6e15729e5adf764b948125987e6c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/13_bacon.png using Guid(d6e15729e5adf764b948125987e6c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4da2841064a61003bbb837961add097') in 0.013760 seconds
-  Import took 0.017325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001022 seconds.
-  path: Assets/Sprite/Food/DishFoods/13_bacon.png
-  artifactKey: Guid(d6e15729e5adf764b948125987e6c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/13_bacon.png using Guid(d6e15729e5adf764b948125987e6c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4da2841064a61003bbb837961add097') in 0.018236 seconds
-  Import took 0.023092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.193374 seconds.
-  path: Assets/Sprite/Food/DishFoods/17_burger_napkin.png
-  artifactKey: Guid(51909da0ea065854ba8ab3cf4eb67766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/17_burger_napkin.png using Guid(51909da0ea065854ba8ab3cf4eb67766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf597275e72691c47443f1fea8a5104') in 0.015092 seconds
-  Import took 0.018889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000713 seconds.
-  path: Assets/Sprite/Food/DishFoods/17_burger_napkin.png
-  artifactKey: Guid(51909da0ea065854ba8ab3cf4eb67766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/17_burger_napkin.png using Guid(51909da0ea065854ba8ab3cf4eb67766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf597275e72691c47443f1fea8a5104') in 0.017030 seconds
-  Import took 0.020528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.858285 seconds.
-  path: Assets/Sprite/Food/DishFoods/19_burrito_dish.png
-  artifactKey: Guid(0b75577aa7ed29644b35ae10db63cf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/19_burrito_dish.png using Guid(0b75577aa7ed29644b35ae10db63cf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502a4e10dd6f7586df55145b8b17a6e7') in 0.022427 seconds
-  Import took 0.025568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.791192 seconds.
-  path: Assets/Sprite/Food/DishFoods/18_burrito.png
-  artifactKey: Guid(cdfd7f86397563c49be89e70f2471e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/18_burrito.png using Guid(cdfd7f86397563c49be89e70f2471e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfd4de5b5a0ed85ba5893afd989287f') in 0.017004 seconds
-  Import took 0.020964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/Sprite/Food/DishFoods/18_burrito.png
-  artifactKey: Guid(cdfd7f86397563c49be89e70f2471e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/18_burrito.png using Guid(cdfd7f86397563c49be89e70f2471e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfd4de5b5a0ed85ba5893afd989287f') in 0.014181 seconds
-  Import took 0.017711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.093825 seconds.
-  path: Assets/Sprite/Food/DishFoods/23_cheesecake_dish.png
-  artifactKey: Guid(40f319c640e54f94c8f6f008be7d5219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/23_cheesecake_dish.png using Guid(40f319c640e54f94c8f6f008be7d5219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88833a2af929c25db4c96ed862cca0ee') in 0.018492 seconds
-  Import took 0.022249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 112.169421 seconds.
-  path: Assets/Sprite/Food/DishFoods/85_roastedchicken.png
-  artifactKey: Guid(b04b6e00e66c66942afc6be95a0cdab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/85_roastedchicken.png using Guid(b04b6e00e66c66942afc6be95a0cdab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fdfabf21a606fb08dfd1396906e3f2') in 0.015915 seconds
-  Import took 0.019190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.775284 seconds.
-  path: Assets/Sprite/Food/DishFoods/69_meatball.png
-  artifactKey: Guid(61e3f13333a0f234d9297803991a37a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/69_meatball.png using Guid(61e3f13333a0f234d9297803991a37a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108943a84b1e576ca496780b191ddc74') in 0.014892 seconds
-  Import took 0.019247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000975 seconds.
-  path: Assets/Sprite/Food/DishFoods/69_meatball.png
-  artifactKey: Guid(61e3f13333a0f234d9297803991a37a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/69_meatball.png using Guid(61e3f13333a0f234d9297803991a37a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108943a84b1e576ca496780b191ddc74') in 0.014030 seconds
-  Import took 0.017579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.837022 seconds.
-  path: Assets/Sprite/Food/DishFoods/63_lemonpie.png
-  artifactKey: Guid(d956ff99e7f2a7d4684b1d1eb89afa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/63_lemonpie.png using Guid(d956ff99e7f2a7d4684b1d1eb89afa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157941a4706f4e9b9870c3bd8d4e929f') in 0.014301 seconds
-  Import took 0.017635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000880 seconds.
-  path: Assets/Sprite/Food/DishFoods/63_lemonpie.png
-  artifactKey: Guid(d956ff99e7f2a7d4684b1d1eb89afa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/63_lemonpie.png using Guid(d956ff99e7f2a7d4684b1d1eb89afa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157941a4706f4e9b9870c3bd8d4e929f') in 0.015705 seconds
-  Import took 0.019252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.325662 seconds.
-  path: Assets/Sprite/Food/DishFoods/61_jam.png
-  artifactKey: Guid(d656754a5539ad549886d65d1240f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/61_jam.png using Guid(d656754a5539ad549886d65d1240f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5332fcc947de96cc26ae4e938f1d9386') in 0.013942 seconds
-  Import took 0.017279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.308742 seconds.
-  path: Assets/Sprite/Food/DishFoods/57_icecream.png
-  artifactKey: Guid(531f9c67695425b488771bd6ccb6cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/57_icecream.png using Guid(531f9c67695425b488771bd6ccb6cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1691d099bc12f5668fdcb7ba7ffb2e8') in 0.026385 seconds
-  Import took 0.030117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.655443 seconds.
-  path: Assets/Sprite/Food/DishFoods/51_giantgummybear_dish.png
-  artifactKey: Guid(06313511e3d0a0649bb4a129b7698dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/51_giantgummybear_dish.png using Guid(06313511e3d0a0649bb4a129b7698dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811f36c554fa62020bada098a651f472') in 0.022851 seconds
-  Import took 0.026609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.343946 seconds.
-  path: Assets/Sprite/Food/DishFoods/45_frenchfries_dish.png
-  artifactKey: Guid(cba6ad6c06c0bd64faaa7f29ed5d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/45_frenchfries_dish.png using Guid(cba6ad6c06c0bd64faaa7f29ed5d9ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad403b6b22bc85eaf08206977e05239') in 0.013628 seconds
-  Import took 0.016880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.979756 seconds.
-  path: Assets/Sprite/Food/DishFoods/36_dumplings.png
-  artifactKey: Guid(b22739dc62db6674f961f9f8f86ceb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/36_dumplings.png using Guid(b22739dc62db6674f961f9f8f86ceb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacda5d293747fe9c942d5e216f419e0') in 0.015476 seconds
-  Import took 0.018783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.189334 seconds.
-  path: Assets/Sprite/Food/DishFoods/33_curry_dish.png
-  artifactKey: Guid(9737ec2acd459de4faef6c124cc6ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/33_curry_dish.png using Guid(9737ec2acd459de4faef6c124cc6ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4576caae69aff194318157c8b1f882be') in 0.014641 seconds
-  Import took 0.018294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001754 seconds.
-  path: Assets/Sprite/Food/DishFoods/33_curry_dish.png
-  artifactKey: Guid(9737ec2acd459de4faef6c124cc6ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/33_curry_dish.png using Guid(9737ec2acd459de4faef6c124cc6ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4576caae69aff194318157c8b1f882be') in 0.016608 seconds
-  Import took 0.020838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.986913 seconds.
-  path: Assets/Sprite/Food/DishFoods/29_cookies_dish.png
-  artifactKey: Guid(37ea26610e508ee40b64f2810237859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/29_cookies_dish.png using Guid(37ea26610e508ee40b64f2810237859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eca5e922860044d11a34c015d9910a7') in 0.014118 seconds
-  Import took 0.017763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000921 seconds.
-  path: Assets/Sprite/Food/DishFoods/29_cookies_dish.png
-  artifactKey: Guid(37ea26610e508ee40b64f2810237859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/29_cookies_dish.png using Guid(37ea26610e508ee40b64f2810237859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eca5e922860044d11a34c015d9910a7') in 0.016243 seconds
-  Import took 0.019721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.671757 seconds.
-  path: Assets/Sprite/Food/DishFoods/22_cheesecake.png
-  artifactKey: Guid(8e1eab8236b073841b7bc8826567d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/22_cheesecake.png using Guid(8e1eab8236b073841b7bc8826567d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6201e5ab1cb1e8a04e099d60db848146') in 0.017541 seconds
-  Import took 0.021009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/Sprite/Food/DishFoods/22_cheesecake.png
-  artifactKey: Guid(8e1eab8236b073841b7bc8826567d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/22_cheesecake.png using Guid(8e1eab8236b073841b7bc8826567d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6201e5ab1cb1e8a04e099d60db848146') in 0.023177 seconds
-  Import took 0.027782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.591507 seconds.
-  path: Assets/Sprite/Food/DishFoods/05_apple_pie.png
-  artifactKey: Guid(785082a1cf63aa345bc5e52361236230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Food/DishFoods/05_apple_pie.png using Guid(785082a1cf63aa345bc5e52361236230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74bb8b0f9ea5ba59d0e0b40fa7e997c') in 0.021876 seconds
-  Import took 0.025257 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001706 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.2 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2438.
-Total: 3.156100 ms (FindLiveObjects: 0.275000 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.581400 ms  DeleteObjects: 0.209800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001494 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.2 MB.
-System memory in use after: 92.1 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2442.
-Total: 2.180600 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.078100 ms MarkObjects: 1.733700 ms  DeleteObjects: 0.133300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001629 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.2 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2446.
-Total: 2.191300 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.790000 ms  DeleteObjects: 0.128400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 8880.553214 seconds.
-  path: Assets/Sprite/Recipe Book.png
-  artifactKey: Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Recipe Book.png using Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec8c6d1e86b84d2f5dc887c0ad50a8e') in 0.063668 seconds
-  Import took 0.068004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1366.061139 seconds.
-  path: Assets/Sprite/Recipe Book.png
-  artifactKey: Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Recipe Book.png using Guid(5a6b84a9ce2467e4295eebd856925942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48617348424fcc03d1ec8871ea2ac746') in 0.017092 seconds
-  Import took 0.020708 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002483 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.506 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.2 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2453.
-Total: 2.451900 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.083300 ms MarkObjects: 1.979600 ms  DeleteObjects: 0.130100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003619 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.6 MB.
-System memory in use after: 92.6 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2471.
-Total: 2.279600 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.088000 ms MarkObjects: 1.830600 ms  DeleteObjects: 0.146200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002873 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.6 MB.
-System memory in use after: 92.6 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2475.
-Total: 2.752900 ms (FindLiveObjects: 0.245500 ms CreateObjectMapping: 0.072400 ms MarkObjects: 2.312400 ms  DeleteObjects: 0.121000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 3943.632437 seconds.
-  path: Assets/Scripts/Ads
-  artifactKey: Guid(cad6762895da2cb49ac8a73e55efd332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ads using Guid(cad6762895da2cb49ac8a73e55efd332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6a2ea1239c5f4e3edd8dbf57461235') in 0.010385 seconds
-  Import took 0.014482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004183 seconds.
-  path: Assets/Scripts/Ads
-  artifactKey: Guid(cad6762895da2cb49ac8a73e55efd332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ads using Guid(cad6762895da2cb49ac8a73e55efd332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6a2ea1239c5f4e3edd8dbf57461235') in 0.004942 seconds
-  Import took 0.008300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.046722 seconds.
-  path: Assets/Scripts/AdsInitializer.cs
-  artifactKey: Guid(a6e24f66765b83f4b9f8ea7a04b82b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AdsInitializer.cs using Guid(a6e24f66765b83f4b9f8ea7a04b82b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037debeb43367d34845b3551e90b3da2') in 0.007042 seconds
-  Import took 0.010878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003717 seconds.
-  path: Assets/Scripts/AdsInitializer.cs
-  artifactKey: Guid(a6e24f66765b83f4b9f8ea7a04b82b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AdsInitializer.cs using Guid(a6e24f66765b83f4b9f8ea7a04b82b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037debeb43367d34845b3551e90b3da2') in 0.005638 seconds
-  Import took 0.010728 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002871 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.6 MB.
-System memory in use after: 92.6 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2479.
-Total: 2.088500 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.070400 ms MarkObjects: 1.711300 ms  DeleteObjects: 0.116900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 30.142153 seconds.
-  path: Assets/Scripts/UIManager.cs
-  artifactKey: Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UIManager.cs using Guid(805a442aa6a80db438a07588fa5cda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec548b0cb1a8578ab060b13e51fd2ab9') in 0.009844 seconds
-  Import took 0.013386 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002708 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.7 MB.
-System memory in use after: 92.6 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2484.
-Total: 2.427400 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.065100 ms MarkObjects: 2.030200 ms  DeleteObjects: 0.128000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Trying to reload asset but can't find object on disk
-
-Registering precompiled user dll's ...
-Registered in 0.000995 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.8 MB.
-System memory in use after: 74.9 MB.
-
-Unloading 350 unused Assets to reduce memory usage. Loaded Objects now: 2139.
-Total: 2.268300 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.089700 ms MarkObjects: 1.683500 ms  DeleteObjects: 0.168400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
